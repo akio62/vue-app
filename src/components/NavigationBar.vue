@@ -25,19 +25,19 @@
         <div class="uk-flex-center">
           <ul class="uk-iconnav">
             <li>
-              <router-link to="/timecards" uk-icon="icon: calendar; ratio: 2" class="buttom-nav-icon"></router-link>
+              <router-link to="/timecards" uk-icon="icon: calendar; ratio: 2" class="bottom-nav-icon"></router-link>
               <div class="bottom_nav_name">タイムカード</div>
             </li>
             <li>
-              <router-link to="/attendances" uk-icon="icon: mail; ratio: 2" class="buttom-nav-icon"></router-link>
+              <router-link to="/attendances" uk-icon="icon: mail; ratio: 2" class="bottom-nav-icon"></router-link>
               <div class="bottom_nav_name">勤怠連絡</div>
             </li>
             <li>
-              <router-link to="/payslips" uk-icon="icon: database; ratio: 2" class="buttom-nav-icon"></router-link>
+              <router-link to="/payslips" uk-icon="icon: database; ratio: 2" class="bottom-nav-icon"></router-link>
               <div class="bottom_nav_name">給与明細</div>
             </li>
             <li>
-              <router-link to="" uk-icon="icon: menu; ratio: 2" class="buttom-nav-icon" uk-toggle="target: #offcanvas-flip"></router-link>
+              <router-link to="" uk-icon="icon: menu; ratio: 2" class="bottom-nav-icon" uk-toggle="target: #offcanvas-flip"></router-link>
               <div class="bottom_nav_name">その他</div>
               <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
                 <div class="uk-offcanvas-bar">
@@ -74,13 +74,13 @@ export default {
   top: 50%;
 }
 
-.uk-iconnav > li {
+.uk-position-bottom .uk-iconnav > li {
   width: 40px;
   padding-left: 16px;
   padding-right: 16px;
 }
 
-.buttom-nav-icon {
+.bottom-nav-icon {
   text-align: center;
 }
 
